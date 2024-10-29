@@ -18,7 +18,6 @@ CompData<-read.csv("HDR23-24_Composite_indices_complete_time_series.csv",
                    sep = ",",
                    encoding = "latin1")
 cd_col <- colnames(CompData)
-print(cd_col)
 ```
 ```{r}
 library(dplyr)
